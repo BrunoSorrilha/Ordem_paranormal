@@ -1,5 +1,8 @@
 body{
     background-color: rgb(11, 36, 71);
+    background-image: url(../img/fundo.jpg);
+    background-attachment: fixed;
+    background-position:center;
   }
   h1{
     color: rgb(206, 191, 191);
@@ -44,7 +47,8 @@ body{
   h2{
     color: rgb(206, 191, 191);
     text-align: center;
-    padding: 0.5%;
+    padding: 1%;
+    font-size: 1.5em;
   }
   h3{
     color: rgb(206, 191, 191);
@@ -57,6 +61,7 @@ body{
 p{
   color: rgb(206, 191, 191);
   padding: 1%;
+  line-height: 1.5em;
 }
 .titulo{
   font-size: 300%;
