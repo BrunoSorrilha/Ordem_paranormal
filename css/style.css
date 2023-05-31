@@ -84,8 +84,19 @@ p{
   flex-flow: row wrap;
   text-align: center;
 }
-.col-6 {
-  width: 50%;
+.jouiper{
+  width: 33.33%;
+  height: 90%;
+}
+.alexper{
+  width: 33.33%;
+}
+.arthurper{
+  width: 33.33%;
+}
+.col-4 {
+  width: 33.33%;
+  font-size: 55%;
 }
 @media (max-width: 600px) {
   .linha {
