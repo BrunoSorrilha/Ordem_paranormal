@@ -62,8 +62,11 @@ body{
     text-shadow: 2px 2px 5px red;
   }
   h3{
-    color: rgb(206, 191, 191);
-    padding: 0.5%;
+      color: rgb(206, 191, 191);
+      padding: 1%;
+      font-size: 2.0em;
+      font-family: monospace;
+      text-shadow: 2px 2px 5px red;
   }
   .joui{
     width: 20%;
@@ -74,6 +77,7 @@ p{
   color: rgb(206, 191, 191);
   padding: 1%;
   line-height: 1.5em;
+  font-size: 1.5em;
   font-family: monospace;
   text-shadow: 2px 2px 5px black;
 }
@@ -124,6 +128,58 @@ li:hover{
  transform: scale(101%);
  margin: 0.5%;
 }
+.OSNFIMG{
+  width: 45%;
+  height: 45%; 
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.DESCOIMG{
+  width: 45%;
+  height: 45%; 
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.CALAIMG{
+  width: 45%;
+  height: 45%; 
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.PRIMIMG{
+  width: 45%;
+  height: 45%; 
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.ILHAIMG{
+  width: 45%;
+  height: 45%; 
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;   
+}
+.SINALIMG{
+  width: 45%;
+  height: 45%; 
+  padding: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;   
+}
+.tituep:hover{
+  font-size: 220%;
+  text-shadow: 2px 2px 5px rgb(4, 0, 255);
+}
 @media (max-width: 600px) {
   .linha {
     flex-direction: column;
@@ -132,4 +188,13 @@ li:hover{
   .col-6 {
       width: 100%;
   }
+}
+a:link {
+  color: rgb(177, 177, 177);
+}
+a:visited {
+  color: rgb(167, 155, 255);
+}
+a:hover {
+  color: red;
 }
