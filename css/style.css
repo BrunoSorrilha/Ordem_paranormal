@@ -113,7 +113,7 @@ p{
   text-align: center;
 }
 li:hover{
- transform: scale(130%);
+ transform: scale(101%);
  margin: 0.5%;
 }
 @media (max-width: 600px) {
