@@ -68,6 +68,13 @@ body{
       font-family: monospace;
       text-shadow: 2px 2px 5px red;
   }
+  h4{
+    color: rgb(206, 191, 191);
+    padding: 1%;
+    font-size: 1.5em;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px rgb(0, 221, 255);
+  }
   .joui{
     width: 20%;
     height: 20%; 
@@ -179,6 +186,18 @@ li:hover{
 .tituep:hover{
   font-size: 220%;
   text-shadow: 2px 2px 5px rgb(4, 0, 255);
+}
+.MUSIC {
+  border-collapse: collapse;
+  width: 100%;
+}
+.MUSIC td, .MUSIC th {
+  border: 2px solid #ddd;
+  padding: 8px;
+  background-color: rgba(167, 155, 255, 0.621);
+}
+.MUSIC tr:hover{
+  background-color: rgb(70, 45, 255);
 }
 @media (max-width: 600px) {
   .linha {
