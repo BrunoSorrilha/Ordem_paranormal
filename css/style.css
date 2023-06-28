@@ -1,13 +1,18 @@
 html{
   scroll-behavior: smooth;
 }
-
 body{
+  background-color: black;
+}
+
+@media only screen and (min-device-width: 1800px) {
+  body{
     background-color: rgb(11, 36, 71);
     background-image: url(../img/fundo.jpg);
     background-attachment: fixed;
     background-position:center;
-  }
+  } 
+}
   h1{
     color: rgb(206, 191, 191);
     text-align: center;
@@ -188,22 +193,47 @@ li:hover{
   width: 25%;
   height: 25%;
 }
+
+#customers {  
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
 .tituep:hover{
   font-size: 220%;
   text-shadow: 2px 2px 5px rgb(4, 0, 255);
 }
-.MUSIC {
+/* .MUSIC {
   border-collapse: collapse;
   width: 100%;
 }
+.MUSIC tr:nth-child(even){background-color: black;}
+
 .MUSIC td, .MUSIC th {
   border: 2px solid #ddd;
   padding: 8px;
   background-color: rgba(167, 155, 255, 0.621);
+  border-collapse: collapse;
 }
 .MUSIC tr:hover{
   background-color: rgb(70, 45, 255);
-}
+} */
 @media (max-width: 600px) {
   .linha {
     flex-direction: column;
