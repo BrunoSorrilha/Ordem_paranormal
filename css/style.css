@@ -256,3 +256,63 @@ footer{
   width: 5%;
   height: 5%;
 }
+.textocentro{
+  text-align: center;
+}
+.imgcentro{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  float: left;
+  margin-left: 20%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+* {
+  box-sizing: border-box;
+}
+.titucon{
+  font-size: 150%;
+  color: #5dca0f;
+}
+#fnome, #País, #Mensagem{
+ font-size: 125%;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #5dca0f;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  cursor: pointer;
+  border-color: black;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.coluna {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
